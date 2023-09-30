@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1 class="question">
+          This is question Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Asperiores natus consectetur, tempore ullam est magnam dolorem
+          veniam unde quasi totam cumque ducimus eaque, ipsam praesentium quia,
+          fugiat sit. Exercitationem, laudantium.
+        </h1>
+        <div class="options">
+          <div>
+            <input
+              class="all-options"
+              type="radio"
+              name="option"
+              id="a-option"
+              value="a"
+            />
+            <label id="option-a" for="a-option">Option A</label>
+          </div>
+          <div>
+            <input
+              class="all-options"
+              type="radio"
+              name="option"
+              id="b-option"
+              value="b"
+            />
+            <label id="option-b" for="b-option">Option B</label>
+          </div>
+          <div>
+            <input
+              class="all-options"
+              type="radio"
+              name="option"
+              id="c-option"
+              value="c"
+            />
+            <label id="option-c" for="c-option">Option C</label>
+          </div>
+          <div>
+            <input
+              class="all-options"
+              type="radio"
+              name="option"
+              id="d-option"
+              value="d"
+            />
+            <label id="option-d" for="d-option">Option D</label>
+          </div>
+        </div>
+        <button onclick="submitQuiz()">Submit</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
